@@ -1,0 +1,7 @@
+# neo vim 插件
+nvim-data
+# 包管理工具 paker 离线数据
+paker
+plugin
+# masson LSP 工具 代码提示
+masson 
