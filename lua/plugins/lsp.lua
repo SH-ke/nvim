@@ -25,18 +25,4 @@ require("lspconfig").lua_ls.setup({
 })
 
 -- settings for pylsp auto-import
-require'lspconfig'.pylsp.setup{
-  settings = {
-    pylsp = {
-      plugins = {
-        rope_autoimport = {
-          enabled = true,
-        },
-        pycodestyle = {
-          ignore = {'W391'},
-          maxLineLength = 100
-        }
-      }
-    }
-  }
-}
+require'lspconfig'.pylsp.setup{}
