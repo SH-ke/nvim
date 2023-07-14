@@ -7,13 +7,13 @@ global.mkdp_auto_start = 0
 -- set to 1, the nvim will auto close current preview window when change
 -- from markdown buffer to another buffer
 -- default: 1
-global.mkdp_auto_close = 1
+global.mkdp_auto_close = 0
 
 -- set to 1, the vim will refresh markdown when save the buffer or
 -- leave from insert mode, default 0 is auto refresh markdown as you edit or
 -- move the cursor
 -- default: 0
-global.mkdp_refresh_slow = 0
+global.mkdp_refresh_slow = 1
 
 -- set to 1, the MarkdownPreview command can be use for all files,
 -- by default it can be use in markdown file
@@ -36,7 +36,7 @@ global.mkdp_open_ip = ''
 -- valid: `/path/with\ space/xxx`
 -- invalid: `/path/with\\ space/xxx`
 -- default: ''
-global.mkdp_browser = "C:/Program Files/Mozilla Firefox/firefox.exe"
+global.mkdp_browser = "D:/Users/SH-ke/scoop/scoop/apps/firefox/current/firefox.exe"
 
 -- set to 1, echo preview page url in command line when open preview page
 -- default is 0
@@ -89,7 +89,7 @@ global.mkdp_port = '8080'
 
 -- preview page title
 -- ${name} will be replace with the file name
-global.mkdp_page_title = '「Markdown」'
+global.mkdp_page_title = '「${name}」'
 
 -- recognized filetypes
 -- these filetypes will have MarkdownPreview... commands

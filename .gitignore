@@ -6,4 +6,4 @@ plugin
 # masson LSP 工具 代码提示
 masson 
 # packer plugin cfg
-plugins-setup.lua
+# plugins-setup.lua
