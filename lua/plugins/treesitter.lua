@@ -4,21 +4,11 @@ require'nvim-treesitter.configs'.setup {
   ensure_installed = {
     "bash",
     "c",
-    "cmake",
-    "cpp",
-    "css",
-    "go",
-    "html",
-    "java",
-    "javascript",
     "json",
-    "latex",
     "lua",
-    "make",
     "markdown",
     "python",
     "rust",
-    "vim",
   },
 
   highlight = {
