@@ -21,7 +21,8 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 --- --- --- --- 插件 --- --- --- ---
 -- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- 文件侧边栏
+keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>") -- 文件侧边栏 开启/关闭
+keymap.set("n", "<leader>f", ":NvimTreeFocus<CR>") -- 文件侧边栏 光标移至此处
 -- 切换buffer
 keymap.set("n","<leader>l",":bnext<CR>")
 keymap.set("n","<leader>h",":bprevious<CR>")
