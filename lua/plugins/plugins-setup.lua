@@ -83,13 +83,6 @@ return require('packer').startup({
   use"SirVer/ultisnips"
   use"honza/vim-snippets"
 
-  -- #deprecated python auto-import #deprecated
-  -- $ pip install ropevim pynvim
-  use({
-    'python-rope/ropevim',
-    ft = "python"
-  })
-
   if packer_bootstrap then
     require('packer').sync()
   end
