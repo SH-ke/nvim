@@ -25,7 +25,7 @@ vim.cmd([[
 
 return require('packer').startup({
   function(use)
-  
+
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim' -- 主题
   -- 状态栏
@@ -45,7 +45,7 @@ return require('packer').startup({
   use "p00f/nvim-ts-rainbow" -- 彩虹括号
   -- 自动提示
   use {
-    "williamboman/mason.nvim", 
+    "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim", -- 这个相当于 mason.nvim 和 lspconfig 的桥梁
     "neovim/nvim-lspconfig",
   }
